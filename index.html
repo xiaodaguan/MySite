@@ -9,7 +9,6 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>gxd的导航页</title>
 
   <!-- Bootstrap core CSS -->
   <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -17,7 +16,11 @@
 </head>
 
 <body>
+  <style type="text/css">
+  ul{margin-left:-25px;}
 
+  </style>
+  <title>gxd的导航页</title>
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
@@ -31,17 +34,18 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-         
+
           <li><a href="http://blog.guanxiaoda.cn">blog</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">more... <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#">...</a></li>
-              <li><a href="#">...</a></li>
+              <li><a href="#">临兵</a></li>
+              <li><a href="#">斗者</a></li>
               <li role="separator" class="divider"></li>
-              <li><a href="#">...</a></li>
+              <li><a href="#">皆</a></li>
               <li role="separator" class="divider"></li>
-              <li><a href="#">...</a></li>
+              <li><a href="#">阵列</a></li>
+              <li><a href="#">前行</a></li>
             </ul>
           </li>
         </ul>
@@ -57,7 +61,7 @@
         <p>知者不失人，亦不失言</p>
         <footer>《论语·卫灵公》</footer>
       </blockquote>
-      <p><a class="btn btn-info btn-xs" href="#" role="button">about me &raquo;</a></p>
+      <p><a class="btn btn-secondary btn-xs" href="http://guanxiaoda.cn/resume.html" role="button">about me &raquo;</a></p>
     </div>
   </div>
 
@@ -67,37 +71,42 @@
       <div class="col-md-11" role="main">
         <div class="col-md-4">
 
-          <h2>修炼之道</h2>
-          <small>遇见更好的自己</small>
+
           <h4>贤贤易色</h4>
 
           <ul>
             <li><a class="btn btn-default" href="https://github.com/xiaodaguan" role="button">GitHub &raquo;</a></li>
-            <li><a class="btn btn-default" href="https://www.v2ex.com/">v2ex: 创意工作者们的社区 &raquo;</a></li>
-            <li><a class="btn btn-default" href="https://juejin.im/">掘金: 高质量技术社区 &raquo;</a></li>
-            <li><a class="btn btn-default" href="http://www.csdn.net/">csdn: 全球最大中文it社区 &raquo;</a></li>
+            <li><a class="btn btn-default" href="https://www.v2ex.com/">v2ex| 创意工作者们的社区 &raquo;</a></li>
+            <li><a class="btn btn-default" href="https://juejin.im/">掘金| 高质量技术社区 &raquo;</a></li>
+            <li><a class="btn btn-default" href="http://www.csdn.net/">csdn| 全球最大中文it社区 &raquo;</a></li>
             <li><a class="btn btn-default" href="http://www.jianshu.com/">简书 &raquo;</a></li>
-            <li><a class="btn btn-default" href="#">... &raquo;</a></li>
+            <li><a class="btn btn-default" href="https://www.zhihu.com/">知乎| 分享知识、见解 &raquo;</a></li>
           </ul>
-
+        </div>
+        <div class="col-md-4">
           <h4>学而时习</h4>
           <ul>
             <li><a class="btn btn-default" href="http://mooc.guokr.com/">果壳mooc &raquo;</a></li>
             <li><a class="btn btn-default" href="https://open.163.com/">网易公开课 &raquo;</a></li>
             <li><a class="btn btn-default" href="http://www.imooc.com/">慕课网 &raquo;</a></li>
           </ul>
+        </div>
+        <div class="col-md-4">
           <h4>锦绣珠玑</h4>
           <ul>
             <li><a class="btn btn-default" href="https://getpocket.com/a/read/1686960548">java后台开发知识图谱 &raquo;</a></li>
           </ul>
+        </div>
+        <div class="col-md-4">
           <h4>秣马脂车</h4>
+          <small>工欲善其事，必先利其器</small>
           <ul>
-            <li><a class="btn btn-default" href="https://www.draw.io/">drawio: 在线流程图 &raquo;</a></li>
+            <li><a class="btn btn-default" href="https://www.draw.io/">drawio| 在线流程图 &raquo;</a></li>
+            <li><a class="btn btn-default" href="https://www.processon.com/">ProcessOn| 在线流程图 &raquo;</a></li>
           </ul>
 
         </div>
         <div class="col-md-4">
-          <h2>食、色，性也</h2>
           <h4>以史为鉴</h4>
           <small>弱小和无知不是生存的障碍，傲慢才是。</small>
           <ul>
@@ -105,21 +114,23 @@
             <li><a class="btn btn-default" href="https://search.bilibili.com/all?keyword=%E5%8F%B2%E5%9B%BE%E9%A6%86&from_source=banner_search" role="button">史图馆 &raquo;</a></li>
             <li><a class="btn btn-default" href="#">... &raquo;</a></li>
           </ul>
+        </div>
+        <div class="col-md-4">
           <h4>戏蝶游蜂</h4>
           <small>一杆鱼叉先至，随后人宠双亡</small>
           <ul>
 
             <li><a class="btn btn-default" href="http://bbs.ngacn.cc/" role="button">NGA &raquo;</a></li>
-            <li><a class="btn btn-default" href="#">... &raquo;</a></li>
+            <li><a class="btn btn-default" href="https://www.douyu.com/">斗鱼| 每个人的直播平台 &raquo;</a></li>
           </ul>
         </div>
         <div class="col-md-4">
-          <h2>柴米油盐</h2>
-          <h4>信用卡</h4>
+          <h4>圈子圈套</h4>
+          <small>吃喝<del>嫖赌</del>玩乐</small>
           <ul>
             <li><a class="btn btn-default" href="http://ccc.spdb.com.cn/miniSite/Platamex2017/1_4.shtml" role="button">浦发ae白权益一览 &raquo;</a></li>
             <li><a class="btn btn-default" href="http://market.cmbchina.com/ccard/vip/platinum1/" role="button">招行经典白权益一览 &raquo;</a></li>
-            <li><a class="btn btn-default" href="#">... &raquo;</a></li>
+            <li><a class="btn btn-default" href="http://flyertea.com/">飞客茶馆| 常旅客互助社区&raquo;</a></li>
           </ul>
         </div>
 
@@ -134,7 +145,7 @@
         </nav>
       </div>
     </div>
-    
+
   </div> <!-- /container -->
 
 
