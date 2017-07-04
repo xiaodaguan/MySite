@@ -1,2 +1,2 @@
 # MySite
-personal web site
+[gxd](http://guanxiaoda.cn)
